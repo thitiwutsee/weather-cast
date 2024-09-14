@@ -1,6 +1,6 @@
 [versions]
 agp = "8.6.0"
-kotlin = "1.9.0"
+kotlin = "2.0.20"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -10,9 +10,11 @@ activityCompose = "1.9.2"
 composeBom = "2024.09.01"
 retrofit = "2.11.0"
 room = "2.6.1"
-dagger = "2.49"
+dagger = "2.52"
 hill-navigation-compose = "1.2.0"
 navigation-compose = "2.8.0"
+ksp = "2.0.20-1.0.24"
+coil = "2.7.0"
 
 
 [libraries]
@@ -40,7 +42,7 @@ dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref 
 dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "dagger" }
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hill-navigation-compose" }
-
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
 
 
@@ -48,6 +50,8 @@ hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-com
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlin-ksp = { id = "com.google.devtools.ksp", version = "2.0.20-1.0.24" }
+kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
 
 

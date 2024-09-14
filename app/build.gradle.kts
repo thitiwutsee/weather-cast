@@ -2,6 +2,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.ksp)
+    alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.hilt)
+
 }
 
 android {
@@ -86,6 +89,9 @@ dependencies {
     implementation(libs.dagger.hilt)
     ksp(libs.dagger.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
+
+    //Coil
+    implementation(libs.coil.compose)
 
 
 
