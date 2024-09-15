@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.kotlin.serialization)
 
 }
 
@@ -92,6 +93,9 @@ dependencies {
 
     //Coil
     implementation(libs.coil.compose)
+
+    //serialization
+    implementation(libs.kotlinx.serialization.json)
 
 
 

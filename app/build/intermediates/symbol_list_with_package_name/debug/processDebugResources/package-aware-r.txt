@@ -89,9 +89,14 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_humidity_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_outline_rainy_24
+drawable ic_pressure_24
+drawable ic_snowing_24
+drawable ic_visibility_24
+drawable ic_wind_speed_24
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low

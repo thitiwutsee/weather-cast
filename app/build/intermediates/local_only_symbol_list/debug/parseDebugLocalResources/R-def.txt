@@ -7,9 +7,14 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable ic_humidity_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_outline_rainy_24
+drawable ic_pressure_24
+drawable ic_snowing_24
+drawable ic_visibility_24
+drawable ic_wind_speed_24
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
