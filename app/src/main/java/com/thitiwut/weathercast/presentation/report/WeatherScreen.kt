@@ -31,6 +31,8 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.pulltorefresh.pullToRefresh
+import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -68,13 +70,25 @@ fun WeatherScreen(
     searchText: String,
     onSearchTextChange: (String) -> Unit,
     onSearchClick: () -> Unit = {},
-    history: List<LocalHistory>
+    history: List<LocalHistory>,
+    onRefresh: () -> Unit = {}
 ) {
     var isSearch by remember { mutableStateOf(false) }
     val scrollState = rememberScrollState()
+    val pullToRefreshState = rememberPullToRefreshState()
     Scaffold {
         DayAndNightBackground(isDaytime) {
-            Column(Modifier.verticalScroll(scrollState)) {
+            Column(
+                Modifier
+                    .pullToRefresh(
+                        state = pullToRefreshState,
+                        onRefresh = {
+                            onRefresh()
+                        },
+                        isRefreshing = weatherState is WeatherState.Loading
+                    )
+                    .verticalScroll(scrollState)
+            ) {
                 when (weatherState) {
                     is WeatherState.Loading -> {
                         LocationItem("") {
@@ -252,7 +266,7 @@ fun LocationItem(location: String, isLoading: Boolean = false, onSearchClick: ()
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp)
+            .padding(start = 16.dp, end = 16.dp, top = 30.dp)
     ) {
         if (isLoading) {
             Box(

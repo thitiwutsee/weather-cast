@@ -59,8 +59,8 @@ data class WeatherResponse(
             windSpeed = wind.speed,
             rain = rain,
             snow = snow,
-            sunrise = sys.sunrise.convertUnixToHHmm(),
-            sunset = sys.sunset.convertUnixToHHmm()
+            sunrise = sys.sunrise.convertUnixToHHmm(timezone),
+            sunset = sys.sunset.convertUnixToHHmm(timezone)
         )
     }
 }

@@ -51,6 +51,9 @@ private fun WeatherCastApp() {
                     weatherViewModel.getWeather()
                 },
                 history = history,
+                onRefresh = {
+                    weatherViewModel.refreshWeather()
+                }
             )
         }
 

@@ -111,6 +111,25 @@ class WeatherViewModel @Inject constructor(
 
     }
 
+    fun refreshWeather() {
+        viewModelScope.launch(dispatcher + errorHandler) {
+            _searchText.value = (_weatherState.value as WeatherState.Success).weatherResponse.name
+            _weatherState.value = WeatherState.Loading
+            val city = _searchText.value
+            val response = repository.getWeather(
+                WeatherRequest(
+                    city = city,
+                )
+            )
+            _isDayTime.value = isDaytime(response.dt.toLong(), response.timezone)
+            _weatherState.value = WeatherState.Success(response)
+            _searchText.update {
+                ""
+            }
+
+        }
+    }
+
     fun setSearchText(text: String) {
         _searchText.value = text
     }

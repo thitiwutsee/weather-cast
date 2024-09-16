@@ -1,5 +1,6 @@
 package com.thitiwut.weathercast.presentation.report
 
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,6 +22,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -96,16 +99,13 @@ fun WeatherDetailInfoLayout(
             isLoading
         )
     }
-    //TODO Sunrise and Sunset
-    WeatherDetailItem(
-        Modifier
+    SunsetLayout(
+        modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp), isDaytime, true,
-        R.drawable.ic_outline_rainy_24,
-        "Rainy",
-        "Rainy",
-        "22mm",
-        isLoading
+            .padding(start = 16.dp, end = 16.dp, bottom = 8.dp), isDaytime,
+        isLoading,
+        detailInfo?.sunrise ?: "",
+        detailInfo?.sunset ?: ""
     )
 }
 
@@ -185,7 +185,6 @@ fun WeatherDetailItem(
         textColorNight
     }
     if (isLoading) {
-
         Box(
             modifier = modifier
                 .height(80.dp)
@@ -245,10 +244,111 @@ fun WeatherDetailItem(
                         color = textColor
                     )
                 }
-
             }
+        }
+    }
+}
 
+@Composable
+fun SunsetLayout(
+    modifier: Modifier = Modifier,
+    isDaytime: Boolean,
+    isLoading: Boolean,
+    sunrise: String, sunset: String
+) {
+    val cardColor = if (isDaytime) {
+        bgCardDaily
+    } else {
+        bgCardNightly
+    }
 
+    val textColor = if (isDaytime) {
+        textColorDay
+    } else {
+        textColorNight
+    }
+    if (isLoading) {
+
+        Box(
+            modifier = modifier
+                .height(80.dp)
+                .clip(shape = RoundedCornerShape(8.dp))
+                .shimmerEffect()
+        )
+    } else {
+        Card(
+            modifier = modifier,
+            shape = RoundedCornerShape(8.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = cardColor.copy(alpha = 0.5f),
+            )
+        ) {
+            Column(
+                Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)) {
+                Canvas(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(100.dp)
+                        .padding(horizontal = 50.dp)
+                ) {
+                    val width = size.width
+                    val height = size.height
+                    val path = Path().apply {
+                        moveTo(0f, height)
+                        quadraticTo(
+                            width / 2f, 0f, 
+                            width, height
+                        )
+                    }
+                    drawPath(
+                        path = path,
+                        color = textColor,
+                        style = Stroke(width = 5f)
+                    )
+                }
+
+                Row {
+                    Column(Modifier.weight(1f)) {
+                        Text(
+                            modifier = Modifier.padding(start = 16.dp),
+                            fontSize = 14.sp,
+                            fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
+                            fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
+                            text = DetailValueType.SUNRISE.title,
+                            color = textColor.copy(0.5f)
+                        )
+                        Text(
+                            modifier = Modifier.padding(start = 16.dp),
+                            fontSize = 18.sp,
+                            fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
+                            fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
+                            text = sunrise,
+                            color = textColor
+                        )
+                    }
+
+                    Column {
+                        Text(
+                            modifier = Modifier.padding(end = 16.dp),
+                            fontSize = 14.sp,
+                            fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
+                            fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
+                            text = DetailValueType.SUNSET.title,
+                            color = textColor.copy(0.5f)
+                        )
+                        Text(
+                            modifier = Modifier.padding(end = 16.dp),
+                            fontSize = 18.sp,
+                            fontStyle = MaterialTheme.typography.titleMedium.fontStyle,
+                            fontWeight = MaterialTheme.typography.titleMedium.fontWeight,
+                            text = sunset,
+                            color = textColor
+                        )
+                    }
+                }
+            }
         }
     }
 
@@ -347,5 +447,19 @@ fun WeatherDetailItemLoadingPreview() {
                 color = textColor
             )
         }
+    }
+}
+
+@Preview
+@Composable
+fun SunsetLayoutPreview() {
+    WeatherCastTheme {
+        SunsetLayout(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp), false,
+            false,
+            "06:00", "18:00"
+        )
     }
 }
