@@ -34,7 +34,7 @@ The app displays current weather conditions such as temperature, humidity, wind 
     git clone https://github.com/thitiwutsee/weather-cast.git
    ```
 2. Open the project in Android Studio
-3. Build and run the app on your Android device or emulator
+3. Sync Project, Build and run the app on your Android device or emulator
 
 ## Usage
 - Launch the app on your Android device.
