@@ -11,6 +11,7 @@ plugins {
 android {
     namespace = "com.thitiwut.weathercast"
     compileSdk = 34
+    val mapAPI = providers.gradleProperty("MAPS_API_KEY").get()
 
     defaultConfig {
         applicationId = "com.thitiwut.weathercast"
@@ -23,8 +24,9 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-    }
+        manifestPlaceholders["GOOGLE_MAP_API_KEY"] = mapAPI
 
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -96,6 +98,9 @@ dependencies {
 
     //serialization
     implementation(libs.kotlinx.serialization.json)
+
+    //maps compose
+    implementation(libs.google.maps.compoase)
 
 
 

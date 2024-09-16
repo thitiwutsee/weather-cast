@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.thitiwut.weathercast.app-mergeDebugResources-61:/values-v21/values-v21.xml",
+            "outputFile": "com.thitiwut.weathercast.app-mergeDebugResources-65:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/res/values-v21/values-v21.xml",
+                    "source": "/Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

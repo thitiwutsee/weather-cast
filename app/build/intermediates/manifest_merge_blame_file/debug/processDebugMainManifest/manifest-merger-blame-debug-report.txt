@@ -12,151 +12,201 @@
 11-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:4:5-66
 11-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:4:22-64
 12
-13    <permission
-13-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-14        android:name="com.thitiwut.weathercast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
-16
-17    <uses-permission android:name="com.thitiwut.weathercast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-18
-19    <application
-19-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:5:5-27:19
-20        android:name="com.thitiwut.weathercast.WeatherCastApplication"
-20-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:6:9-47
-21        android:allowBackup="true"
-21-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:7:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3fc4eb140d01da757b5175e0ab1e5f8a/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
-23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:8:9-65
-24        android:debuggable="true"
-25        android:extractNativeLibs="false"
-26        android:fullBackupContent="@xml/backup_rules"
-26-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:9:9-54
-27        android:icon="@mipmap/ic_launcher"
-27-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:10:9-43
-28        android:label="@string/app_name"
-28-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:11:9-41
-29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:12:9-54
-30        android:supportsRtl="true"
-30-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:13:9-35
-31        android:testOnly="true"
-32        android:theme="@style/Theme.WeatherCast" >
-32-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:14:9-49
-33        <activity
-33-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:16:9-26:20
-34            android:name="com.thitiwut.weathercast.presentation.MainActivity"
-34-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:17:13-54
-35            android:exported="true"
-35-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:18:13-36
-36            android:label="@string/app_name"
-36-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:19:13-45
-37            android:theme="@style/Theme.WeatherCast" >
-37-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:20:13-53
-38            <intent-filter>
-38-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:21:13-25:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:22:17-69
-39-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:22:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:24:17-77
-41-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:24:27-74
-42            </intent-filter>
-43        </activity>
-44
-45        <provider
-45-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-46            android:name="androidx.startup.InitializationProvider"
-46-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-47            android:authorities="com.thitiwut.weathercast.androidx-startup"
-47-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-48            android:exported="false" >
-48-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-49            <meta-data
-49-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-50-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-51                android:value="androidx.startup" />
-51-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/f5438466f465a3519e1cf22501806be5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-52            <meta-data
-52-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/mosthitiwut/.gradle/caches/transforms-4/a88390b808f9df4778df17318c229cf8/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
-53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-53-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/mosthitiwut/.gradle/caches/transforms-4/a88390b808f9df4778df17318c229cf8/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
-54                android:value="androidx.startup" />
-54-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/mosthitiwut/.gradle/caches/transforms-4/a88390b808f9df4778df17318c229cf8/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
-55            <meta-data
-55-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-56-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-57                android:value="androidx.startup" />
-57-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-58        </provider>
-59
-60        <activity
-60-->[androidx.compose.ui:ui-test-manifest:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/e3d20f384dbae3fee87a13fa79725b1d/transformed/ui-test-manifest-1.7.1/AndroidManifest.xml:23:9-25:39
-61            android:name="androidx.activity.ComponentActivity"
-61-->[androidx.compose.ui:ui-test-manifest:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/e3d20f384dbae3fee87a13fa79725b1d/transformed/ui-test-manifest-1.7.1/AndroidManifest.xml:24:13-63
-62            android:exported="true" />
-62-->[androidx.compose.ui:ui-test-manifest:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/e3d20f384dbae3fee87a13fa79725b1d/transformed/ui-test-manifest-1.7.1/AndroidManifest.xml:25:13-36
-63        <activity
-63-->[androidx.compose.ui:ui-tooling-android:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ea2971be23c9da2de7072aa1261c8cab/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
-64            android:name="androidx.compose.ui.tooling.PreviewActivity"
-64-->[androidx.compose.ui:ui-tooling-android:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ea2971be23c9da2de7072aa1261c8cab/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
-65            android:exported="true" />
-65-->[androidx.compose.ui:ui-tooling-android:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ea2971be23c9da2de7072aa1261c8cab/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
-66
-67        <service
-67-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3ecdc209a7f827ad4a1cde9df3978bc5/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
-68            android:name="androidx.room.MultiInstanceInvalidationService"
-68-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3ecdc209a7f827ad4a1cde9df3978bc5/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
-69            android:directBootAware="true"
-69-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3ecdc209a7f827ad4a1cde9df3978bc5/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
-70            android:exported="false" />
-70-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/3ecdc209a7f827ad4a1cde9df3978bc5/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
-71
-72        <receiver
-72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-74            android:directBootAware="false"
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-75            android:enabled="true"
-75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-76            android:exported="true"
-76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-77            android:permission="android.permission.DUMP" >
-77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-78            <intent-filter>
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-80            </intent-filter>
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f2a34df3e18eaf51b2973b83d7c99f9e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-89            </intent-filter>
-90        </receiver>
-91    </application>
-92
-93</manifest>
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <permission
+26-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+27        android:name="com.thitiwut.weathercast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.thitiwut.weathercast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:5:5-30:19
+33        android:name="com.thitiwut.weathercast.WeatherCastApplication"
+33-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:6:9-47
+34        android:allowBackup="true"
+34-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:7:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.13.1] /Users/mosthitiwut/.gradle/caches/transforms-4/ae47fd094f78b4c9f641c57495419538/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:8:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:9:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:10:9-43
+41        android:label="@string/app_name"
+41-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:11:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:12:9-54
+43        android:supportsRtl="true"
+43-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:13:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.WeatherCast" >
+45-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:14:9-49
+46        <meta-data
+47            android:name="com.google.android.geo.API_KEY"
+47-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:17:13-58
+48            android:value="AIzaSyBCBPE7lm-NVMpyio6X7uSYlGZznTJWu6Q" />
+48-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:18:13-50
+49
+50        <activity
+50-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:19:9-29:20
+51            android:name="com.thitiwut.weathercast.presentation.MainActivity"
+51-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:20:13-54
+52            android:exported="true"
+52-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:21:13-36
+53            android:label="@string/app_name"
+53-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:22:13-45
+54            android:theme="@style/Theme.WeatherCast" >
+54-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:23:13-53
+55            <intent-filter>
+55-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:24:13-28:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:25:17-69
+56-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:25:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:27:17-77
+58-->/Users/mosthitiwut/Documents/Android/weather-cast/app/src/main/AndroidManifest.xml:27:27-74
+59            </intent-filter>
+60        </activity>
+61        <!-- Needs to be explicitly declared on P+ -->
+62        <uses-library
+62-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:39:9-41:40
+63            android:name="org.apache.http.legacy"
+63-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:40:13-50
+64            android:required="false" />
+64-->[com.google.android.gms:play-services-maps:19.0.0] /Users/mosthitiwut/.gradle/caches/transforms-4/70e64fc2fc74603d13e3348651f355cc/transformed/play-services-maps-19.0.0/AndroidManifest.xml:41:13-37
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:18.5.0] /Users/mosthitiwut/.gradle/caches/transforms-4/2676e799c79b3b1d0c0639de1ca24b5f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:18.5.0] /Users/mosthitiwut/.gradle/caches/transforms-4/2676e799c79b3b1d0c0639de1ca24b5f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:18.5.0] /Users/mosthitiwut/.gradle/caches/transforms-4/2676e799c79b3b1d0c0639de1ca24b5f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:18.5.0] /Users/mosthitiwut/.gradle/caches/transforms-4/2676e799c79b3b1d0c0639de1ca24b5f/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:18.4.0] /Users/mosthitiwut/.gradle/caches/transforms-4/4a022ecbc04fb5c92eaec94e5fc5a372/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:18.4.0] /Users/mosthitiwut/.gradle/caches/transforms-4/4a022ecbc04fb5c92eaec94e5fc5a372/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:18.4.0] /Users/mosthitiwut/.gradle/caches/transforms-4/4a022ecbc04fb5c92eaec94e5fc5a372/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+77            android:authorities="com.thitiwut.weathercast.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/mosthitiwut/.gradle/caches/transforms-4/dd97b4bd37daf80434fb6536cea725ac/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/mosthitiwut/.gradle/caches/transforms-4/8c59133940b0b81df4347e1749761925/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/mosthitiwut/.gradle/caches/transforms-4/8c59133940b0b81df4347e1749761925/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/mosthitiwut/.gradle/caches/transforms-4/8c59133940b0b81df4347e1749761925/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <activity
+90-->[androidx.compose.ui:ui-test-manifest:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/0ebba3c14ce880772b12f86ab17e2752/transformed/ui-test-manifest-1.7.1/AndroidManifest.xml:23:9-25:39
+91            android:name="androidx.activity.ComponentActivity"
+91-->[androidx.compose.ui:ui-test-manifest:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/0ebba3c14ce880772b12f86ab17e2752/transformed/ui-test-manifest-1.7.1/AndroidManifest.xml:24:13-63
+92            android:exported="true" />
+92-->[androidx.compose.ui:ui-test-manifest:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/0ebba3c14ce880772b12f86ab17e2752/transformed/ui-test-manifest-1.7.1/AndroidManifest.xml:25:13-36
+93        <activity
+93-->[androidx.compose.ui:ui-tooling-android:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/6b0d8a50269e479c1af0fc040fb68256/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+94            android:name="androidx.compose.ui.tooling.PreviewActivity"
+94-->[androidx.compose.ui:ui-tooling-android:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/6b0d8a50269e479c1af0fc040fb68256/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+95            android:exported="true" />
+95-->[androidx.compose.ui:ui-tooling-android:1.7.1] /Users/mosthitiwut/.gradle/caches/transforms-4/6b0d8a50269e479c1af0fc040fb68256/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+96
+97        <service
+97-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f734b02d3ce2e247bb52cf232bbfccd3/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+98            android:name="androidx.room.MultiInstanceInvalidationService"
+98-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f734b02d3ce2e247bb52cf232bbfccd3/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+99            android:directBootAware="true"
+99-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f734b02d3ce2e247bb52cf232bbfccd3/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+100            android:exported="false" />
+100-->[androidx.room:room-runtime:2.6.1] /Users/mosthitiwut/.gradle/caches/transforms-4/f734b02d3ce2e247bb52cf232bbfccd3/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+101
+102        <receiver
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+103            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+104            android:directBootAware="false"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+105            android:enabled="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+106            android:exported="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+107            android:permission="android.permission.DUMP" >
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+109                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+112                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+115                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+118                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mosthitiwut/.gradle/caches/transforms-4/670b8a0a6954873adaad22423923d8be/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+119            </intent-filter>
+120        </receiver>
+121    </application>
+122
+123</manifest>

@@ -81,8 +81,8 @@ fun WeatherCurrentInfoLayout(isLoading: Boolean, mainInfo: WeatherMainInfo? = nu
                         .padding(24.dp)
                 ) {
                     Text(
-                        fontSize = 24.sp,
-                        lineHeight = 32.sp,
+                        fontSize = 32.sp,
+                        lineHeight = 40.sp,
                         fontStyle = MaterialTheme.typography.titleLarge.fontStyle,
                         fontWeight = MaterialTheme.typography.titleLarge.fontWeight,
                         color = Color.White,

@@ -16,7 +16,7 @@ navigation-compose = "2.8.0"
 ksp = "2.0.20-1.0.24"
 coil = "2.7.0"
 kotlinxSerializationJsonVersion = "1.7.1"
-
+mapsCompose = "6.1.0"
 
 
 [libraries]
@@ -46,7 +46,7 @@ navigation-compose = { group = "androidx.navigation", name = "navigation-compose
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hill-navigation-compose" }
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJsonVersion" }
-
+google-maps-compoase = { group = "com.google.maps.android", name = "maps-compose" ,version.ref = "mapsCompose" }
 
 
 

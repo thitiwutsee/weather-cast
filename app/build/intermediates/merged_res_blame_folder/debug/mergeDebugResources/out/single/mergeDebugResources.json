@@ -1,90 +1,90 @@
 [
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_snowing_24.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_snowing_24.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/xml_data_extraction_rules.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_visibility_24.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_visibility_24.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_outline_rainy_24.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_outline_rainy_24.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_snowing_24.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_snowing_24.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_wind_speed_24.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_wind_speed_24.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_outline_rainy_24.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_outline_rainy_24.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/xml_backup_rules.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/xml/backup_rules.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_pressure_24.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_pressure_24.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_visibility_24.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_visibility_24.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_humidity_24.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_humidity_24.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_pressure_24.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_pressure_24.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_launcher_background.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/xml_backup_rules.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/drawable_ic_wind_speed_24.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/drawable/ic_wind_speed_24.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/xml_data_extraction_rules.xml.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/xml/data_extraction_rules.xml"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/drawable_ic_humidity_24.xml.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/drawable/ic_humidity_24.xml"
     },
     {
-        "merged": "com.thitiwut.weathercast.app-debug-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.thitiwut.weathercast.app-main-65:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.thitiwut.weathercast.app-debug-67:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.thitiwut.weathercast.app-main-69:/mipmap-mdpi/ic_launcher_round.webp"
     }
 ]

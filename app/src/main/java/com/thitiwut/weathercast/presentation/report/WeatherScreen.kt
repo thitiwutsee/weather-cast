@@ -52,6 +52,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.google.android.gms.maps.model.LatLng
 import com.thitiwut.weathercast.data.local.LocalHistory
 import com.thitiwut.weathercast.data.remote.dummyData
 import com.thitiwut.weathercast.ui.compose.shimmerEffect
@@ -111,6 +112,7 @@ fun WeatherScreen(
                             isDaytime = isDaytime,
                             detailInfo = detailInfo
                         )
+                        LocationLayout(LatLng(data.location.lat, data.location.lon))
                     }
 
                     is WeatherState.Error -> {
